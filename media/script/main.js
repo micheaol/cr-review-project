@@ -11,7 +11,7 @@ menuAbout.textContent = 'About';
 const menuContact = document.createElement('li');
 menuContact.textContent = 'Contact';
 const closeBtn = document.createElement('span');
-closeBtn.textContent = 'X';
+closeBtn.textContent = 'x';
 closeBtn.id = 'toggle-close';
 closeBtn.style.color = 'white';
 
