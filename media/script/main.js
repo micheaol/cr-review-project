@@ -1,5 +1,4 @@
 const menuBars = document.querySelector('.menu-bars');
-const intro = document.querySelector('#intro');
 const main = document.querySelector('.main-body');
 
 const menuDiv = document.createElement('div');
@@ -24,33 +23,32 @@ menuDiv.appendChild(closeBtn);
 menuDiv.appendChild(menuUl);
 
 menuBars.addEventListener('click', () => {
-    main.prepend(menuDiv);
-    menuBars.style.display = 'none';
-    menuDiv.style.display = 'block';
-    menuDiv.style.backgroundColor = '#3C3A39';
-    menuDiv.style.height = '100vh'
-    console.log(menuDiv);
-})
+  main.prepend(menuDiv);
+  menuBars.style.display = 'none';
+  menuDiv.style.display = 'block';
+  menuDiv.style.backgroundColor = '#3C3A39';
+  menuDiv.style.height = '100vh';
+});
 
 closeBtn.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    menuBars.style.display = 'block';
-  });
-  
-  menuPortfolio.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#projects';
-    menuBars.style.display = 'block';
-  });
-  
-  menuAbout.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#about-me';
-    menuBars.style.display = 'block';
-  });
-  
-  menuContact.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.location = '#contact';
-    menuBars.style.display = 'block';
-  });
+  menuDiv.style.display = 'none';
+  menuBars.style.display = 'block';
+});
+
+menuPortfolio.addEventListener('click', () => {
+  menuDiv.style.display = 'none';
+  document.location = '#projects';
+  menuBars.style.display = 'block';
+});
+
+menuAbout.addEventListener('click', () => {
+  menuDiv.style.display = 'none';
+  document.location = '#about-me';
+  menuBars.style.display = 'block';
+});
+
+menuContact.addEventListener('click', () => {
+  menuDiv.style.display = 'none';
+  document.location = '#contact';
+  menuBars.style.display = 'block';
+});

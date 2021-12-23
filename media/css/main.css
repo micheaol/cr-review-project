@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -448,11 +449,6 @@ textarea {
     display: block;
   }
 
-  #desktop-nav ul {
-    display: flex;
-    margin-right: 10vw;
-  }
-
   .toggle-nav {
     position: fixed;
     top: 0;
@@ -461,7 +457,7 @@ textarea {
     height: 100%;
     z-index: 999;
   }
-  
+
   .toggle-nav ul {
     display: flex;
     flex-direction: column;
@@ -476,7 +472,12 @@ textarea {
     font-family: Inter, sans-serif;
     font-weight: bold;
   }
-  
+
+  #desktop-nav ul {
+    display: flex;
+    margin-right: 10vw;
+  }
+
   .toggle-nav ul li {
     height: 24px;
     font-size: 32px;
@@ -488,7 +489,7 @@ textarea {
     padding-bottom: 35%;
     border-bottom: 0.52px solid #6f6c6b;
   }
-  
+
   #toggle-close {
     float: right;
     padding-top: 8%;
