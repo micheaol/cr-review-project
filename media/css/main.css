@@ -417,6 +417,42 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+#toggle-close {
+  float: right;
+  padding-top: 8%;
+  margin-right: 10%;
+  color: #67798e;
+  border: 2px solid #3c3a39;
+  cursor: pointer;
+}
+
+.toggle-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 25%;
+  width: 25%;
+  margin-top: 20%;
+  margin-left: 5%;
+  list-style-type: none;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+}
+
+.toggle-nav ul li {
+  height: 24px;
+  font-size: 32px;
+  line-height: 14px;
+  cursor: pointer;
+  color: #fff5e1;
+  width: 350%;
+  padding-left: 10%;
+  padding-bottom: 35%;
+  border-bottom: 0.52px solid #6f6c6b;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
