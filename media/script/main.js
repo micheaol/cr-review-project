@@ -39,18 +39,18 @@ closeBtn.addEventListener('click', () => {
   
   menuPortfolio.addEventListener('click', () => {
     menuDiv.style.display = 'none';
-    document.location = '#projects-title';
+    document.location = '#projects';
     menuBars.style.display = 'block';
   });
   
   menuAbout.addEventListener('click', () => {
     menuDiv.style.display = 'none';
-    document.location = '#about-section';
+    document.location = '#about-me';
     menuBars.style.display = 'block';
   });
   
   menuContact.addEventListener('click', () => {
     menuDiv.style.display = 'none';
-    document.location = '#contact-div';
+    document.location = '#contact';
     menuBars.style.display = 'block';
   });
